@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="$PROJECT_DIR$/composer.json" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark-ext-table" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1WFyuhKYgFasUwJzphQ3zYJnbaL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.ActivityFeedsTest.test_completing_a_task_records_project_acitvity">
+    <configuration name="ActivityFeedsTest.test_a_project_generates_activity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ActivityFeedsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ActivityFeedsTest.php" method="test_a_project_generates_activity" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ActivityFeedsTest.test_a_project_update_generates_acitivity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ActivityFeedsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ActivityFeedsTest.php" method="test_a_project_update_generates_acitivity" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ActivityFeedsTest.test_completing_a_task_records_project_acitvity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ActivityFeedsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ActivityFeedsTest.php" method="test_completing_a_task_records_project_acitvity" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ActivityFeedsTest.test_creating_a_task_records_project_activity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ActivityFeedsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ActivityFeedsTest.php" method="test_creating_a_task_records_project_activity" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjectsTest.test_a_user_can_create_a_project" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ProjectsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ProjectsTest.php" method="test_a_user_can_create_a_project" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ActivityFeedsTest.test_completing_a_task_records_project_acitvity" />
+        <item itemvalue="PHPUnit.ActivityFeedsTest.test_creating_a_task_records_project_activity" />
+        <item itemvalue="PHPUnit.ActivityFeedsTest.test_a_project_update_generates_acitivity" />
+        <item itemvalue="PHPUnit.ActivityFeedsTest.test_a_project_generates_activity" />
+        <item itemvalue="PHPUnit.ProjectsTest.test_a_user_can_create_a_project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="" />
+      <created>1578759862645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578759862645</updated>
+      <workItem from="1578759866681" duration="7331000" />
+      <workItem from="1578831877458" duration="5882000" />
+      <workItem from="1578890722024" duration="13459000" />
+      <workItem from="1579150090767" duration="3183000" />
+      <workItem from="1579192194805" duration="1322000" />
+      <workItem from="1579193998204" duration="11877000" />
+      <workItem from="1579229417083" duration="5582000" />
+      <workItem from="1579384731878" duration="475000" />
+      <workItem from="1579527642191" duration="1720000" />
+      <workItem from="1579583723035" duration="549000" />
+      <workItem from="1579799024230" duration="6172000" />
+      <workItem from="1579850895286" duration="2249000" />
+      <workItem from="1580137153646" duration="2890000" />
+      <workItem from="1580295921309" duration="476000" />
+      <workItem from="1580444217094" duration="9000" />
+      <workItem from="1580557670335" duration="46000" />
+      <workItem from="1581692421840" duration="14827000" />
+      <workItem from="1581862449560" duration="134000" />
+      <workItem from="1581871347296" duration="3117000" />
+      <workItem from="1581941637667" duration="5541000" />
+      <workItem from="1582003883529" duration="500000" />
+      <workItem from="1582025693334" duration="62000" />
+      <workItem from="1582436804238" duration="22053000" />
+      <workItem from="1582616168039" duration="579000" />
+      <workItem from="1582864225848" duration="5180000" />
+      <workItem from="1582910611482" duration="5847000" />
+      <workItem from="1583053383693" duration="3400000" />
+      <workItem from="1583080461918" duration="2364000" />
+      <workItem from="1583119006564" duration="2734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="251" y="39" key="#CLI_Interpreters" timestamp="1578765366478">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="251" y="39" key="#CLI_Interpreters/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578765366478" />
+    <state x="241" y="23" key="#ProjectsTest.test_a_user_can_create_a_project" timestamp="1578761847360">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="241" y="23" key="#ProjectsTest.test_a_user_can_create_a_project/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578761847360" />
+    <state x="241" y="23" key="#ProjectsTest.test_a_user_can_create_a_project_(1)" timestamp="1578765486927">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="241" y="23" key="#ProjectsTest.test_a_user_can_create_a_project_(1)/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578765486927" />
+    <state x="241" y="23" key="#ProjectsTest.test_a_user_can_create_a_project_(2)" timestamp="1578766131999">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="241" y="23" key="#ProjectsTest.test_a_user_can_create_a_project_(2)/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578766131999" />
+    <state x="228" y="23" width="949" height="668" key="#Test_Frameworks" timestamp="1578766127792">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="228" y="23" width="949" height="668" key="#Test_Frameworks/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578766127792" />
+    <state x="100" y="109" width="1080" height="656" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583053999671">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.732/-293.-1057.1920.1057@0.0.1280.732" timestamp="1581963087962" />
+    <state x="100" y="109" width="1080" height="656" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1582868387997" />
+    <state x="100" y="109" width="1080" height="656" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583053999671" />
+    <state x="268" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581963698754">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="268" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1581963698754" />
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1578853524005">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578853524005" />
+    <state x="328" y="142" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586151037660">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="142" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1586151037660" />
+    <state x="376" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582561304234">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="376" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1582561304234" />
+    <state x="378" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583063597527">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1579237011282" />
+    <state x="378" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583063597527" />
+    <state x="494" y="-994" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1" timestamp="1581999601559">
+      <screen x="-228" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="494" y="-994" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1581999601559" />
+    <state x="427" y="151" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1" timestamp="1583063166033">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="427" y="151" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583063166033" />
+    <state x="147" y="183" key="EditFileWatcherDialog" timestamp="1579194804105">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="147" y="183" key="EditFileWatcherDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1579194804105" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom" timestamp="1583730798365">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084106" />
+    <state width="1920" height="254" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332392" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798365" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721911" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
+    <state width="1280" height="158" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582561337486" />
+    <state width="1920" height="213" key="GridCell.Tab.0.bottom/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882500" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
+    <state width="1920" height="283" key="GridCell.Tab.0.bottom/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065774" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center" timestamp="1583730798363">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084104" />
+    <state width="1920" height="254" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332390" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721908" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649826" />
+    <state width="1280" height="158" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582561337485" />
+    <state width="1920" height="213" key="GridCell.Tab.0.center/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376974" />
+    <state width="1920" height="283" key="GridCell.Tab.0.center/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065772" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left" timestamp="1583730798363">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084103" />
+    <state width="1920" height="254" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332387" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721907" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649825" />
+    <state width="1280" height="158" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582561337484" />
+    <state width="1920" height="213" key="GridCell.Tab.0.left/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882498" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376973" />
+    <state width="1920" height="283" key="GridCell.Tab.0.left/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065771" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right" timestamp="1583730798364">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084105" />
+    <state width="1920" height="254" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332391" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798364" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721910" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
+    <state width="1280" height="158" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582561337485" />
+    <state width="1920" height="213" key="GridCell.Tab.0.right/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
+    <state width="1920" height="283" key="GridCell.Tab.0.right/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065773" />
+    <state width="1920" height="254" key="GridCell.Tab.1.bottom" timestamp="1582611332386">
+      <screen x="-228" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="254" key="GridCell.Tab.1.bottom/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332386" />
+    <state width="1280" height="181" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582546904366" />
+    <state width="1920" height="254" key="GridCell.Tab.1.center" timestamp="1582611332379">
+      <screen x="-228" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="254" key="GridCell.Tab.1.center/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332379" />
+    <state width="1280" height="181" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1582546904365" />
+    <state width="1920" height="254" key="GridCell.Tab.1.left" timestamp="1582611332378">
+      <screen x="-228" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="254" key="GridCell.Tab.1.left/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332378" />
+    <state width="1280" height="181" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1582546904364" />
+    <state width="1920" height="254" key="GridCell.Tab.1.right" timestamp="1582611332385">
+      <screen x="-228" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="254" key="GridCell.Tab.1.right/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332385" />
+    <state width="1280" height="181" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1582546904365" />
+    <state x="361" y="197" key="NewPhpClassDialog" timestamp="1583063043909">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="361" y="197" key="NewPhpClassDialog/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583063043909" />
+    <state x="361" y="198" key="NewPhpClassDialog/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1581872499660" />
+    <state x="430" y="330" key="NewPhpFileDialog" timestamp="1581963707874">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1581963707874" />
+    <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1580139876998" />
+    <state x="0" y="0" width="1280" height="800" key="SettingsEditor" timestamp="1586155208523">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="171" y="23" key="SettingsEditor/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1579527991338" />
+    <state x="171" y="0" width="937" height="722" key="SettingsEditor/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583466791421" />
+    <state x="171" y="0" key="SettingsEditor/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1579194187368" />
+    <state x="0" y="0" width="1280" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586155208523" />
+    <state x="171" y="23" width="937" height="709" key="SettingsEditor/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578765836470" />
+    <state x="283" y="152" width="713" height="496" key="find.popup" timestamp="1583724200449">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583724200449" />
+    <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1582998887596" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1586150448344">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583119960653" />
+    <state x="230" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582604914661" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583728825768" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697318249" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586150448344" />
+    <state x="230" y="-1008" width="1005" height="1009" key="search.everywhere.popup/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1581999126686" />
+    <state x="305" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1581872663560" />
+  </component>
+</project>
