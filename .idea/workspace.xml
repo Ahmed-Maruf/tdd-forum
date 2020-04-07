@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="" />
+    <list default="true" id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Reply.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ReplyFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ThreadFatory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_07_110343_create_threads_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_07_111029_create_replies_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +153,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -384,27 +396,27 @@
     </state>
     <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1581963707874" />
     <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1580139876998" />
-    <state x="0" y="0" width="1280" height="800" key="SettingsEditor" timestamp="1586155208523">
+    <state x="0" y="0" width="1280" height="800" key="SettingsEditor" timestamp="1586258766106">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="171" y="23" key="SettingsEditor/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1579527991338" />
     <state x="171" y="0" width="937" height="722" key="SettingsEditor/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583466791421" />
     <state x="171" y="0" key="SettingsEditor/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1579194187368" />
-    <state x="0" y="0" width="1280" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586155208523" />
+    <state x="0" y="0" width="1280" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586258766106" />
     <state x="171" y="23" width="937" height="709" key="SettingsEditor/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578765836470" />
     <state x="283" y="152" width="713" height="496" key="find.popup" timestamp="1583724200449">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583724200449" />
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1582998887596" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1586150448344">
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1586257668702">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583119960653" />
     <state x="230" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582604914661" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583728825768" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697318249" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586150448344" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586257668702" />
     <state x="230" y="-1008" width="1005" height="1009" key="search.everywhere.popup/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1581999126686" />
     <state x="305" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1581872663560" />
   </component>
