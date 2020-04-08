@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/threads/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ReplyTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reply.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,17 +155,17 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ThreadsTest.test_a_user_can_view_single_thread">
-    <configuration name="ActivityFeedsTest.test_a_project_update_generates_acitivity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ActivityFeedsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ActivityFeedsTest.php" method="test_a_project_update_generates_acitivity" scope="Method" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.ReplyTest.test_it_has_a_owner">
     <configuration name="ActivityFeedsTest.test_completing_a_task_records_project_acitvity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ActivityFeedsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ActivityFeedsTest.php" method="test_completing_a_task_records_project_acitvity" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ActivityFeedsTest.test_creating_a_task_records_project_activity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ActivityFeedsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ActivityFeedsTest.php" method="test_creating_a_task_records_project_activity" scope="Method" />
+    <configuration name="ReplyTest.test_it_has_a_owner" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ReplyTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ReplyTest.php" method="test_it_has_a_owner" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreadsTest.test_a_user_can_read_replies_associated_with_a_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="test_a_user_can_read_replies_associated_with_a_thread" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ThreadsTest.test_a_user_can_view_single_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -210,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ReplyTest.test_it_has_a_owner" />
+        <item itemvalue="PHPUnit.ThreadsTest.test_a_user_can_read_replies_associated_with_a_thread" />
         <item itemvalue="PHPUnit.ThreadsTest.test_a_user_can_view_single_thread" />
         <item itemvalue="PHPUnit.ThreadsTest.test_a_user_can_view_threads" />
         <item itemvalue="PHPUnit.ActivityFeedsTest.test_completing_a_task_records_project_acitvity" />
-        <item itemvalue="PHPUnit.ActivityFeedsTest.test_creating_a_task_records_project_activity" />
-        <item itemvalue="PHPUnit.ActivityFeedsTest.test_a_project_update_generates_acitivity" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +313,7 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="147" y="183" key="EditFileWatcherDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1579194804105" />
-    <state width="1280" height="259" key="GridCell.Tab.0.bottom" timestamp="1586265829869">
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom" timestamp="1586352146424">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084106" />
@@ -349,11 +321,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798365" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721911" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
-    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586265829869" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586352146424" />
     <state width="1920" height="213" key="GridCell.Tab.0.bottom/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882500" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
     <state width="1920" height="283" key="GridCell.Tab.0.bottom/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065774" />
-    <state width="1280" height="259" key="GridCell.Tab.0.center" timestamp="1586265829868">
+    <state width="1280" height="259" key="GridCell.Tab.0.center" timestamp="1586352146421">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084104" />
@@ -361,11 +333,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721908" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649826" />
-    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586265829868" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586352146421" />
     <state width="1920" height="213" key="GridCell.Tab.0.center/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376974" />
     <state width="1920" height="283" key="GridCell.Tab.0.center/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065772" />
-    <state width="1280" height="259" key="GridCell.Tab.0.left" timestamp="1586265829867">
+    <state width="1280" height="259" key="GridCell.Tab.0.left" timestamp="1586352146416">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084103" />
@@ -373,11 +345,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721907" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649825" />
-    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586265829867" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586352146416" />
     <state width="1920" height="213" key="GridCell.Tab.0.left/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882498" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376973" />
     <state width="1920" height="283" key="GridCell.Tab.0.left/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065771" />
-    <state width="1280" height="259" key="GridCell.Tab.0.right" timestamp="1586265829868">
+    <state width="1280" height="259" key="GridCell.Tab.0.right" timestamp="1586352146423">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084105" />
@@ -385,30 +357,30 @@
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798364" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721910" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
-    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586265829868" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586352146423" />
     <state width="1920" height="213" key="GridCell.Tab.0.right/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
     <state width="1920" height="283" key="GridCell.Tab.0.right/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065773" />
-    <state width="1280" height="180" key="GridCell.Tab.1.bottom" timestamp="1586265604659">
+    <state width="1280" height="180" key="GridCell.Tab.1.bottom" timestamp="1586268848025">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1920" height="254" key="GridCell.Tab.1.bottom/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332386" />
-    <state width="1280" height="180" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586265604659" />
-    <state width="1280" height="180" key="GridCell.Tab.1.center" timestamp="1586265604657">
+    <state width="1280" height="180" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586268848025" />
+    <state width="1280" height="180" key="GridCell.Tab.1.center" timestamp="1586268848023">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1920" height="254" key="GridCell.Tab.1.center/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332379" />
-    <state width="1280" height="180" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586265604657" />
-    <state width="1280" height="180" key="GridCell.Tab.1.left" timestamp="1586265604656">
+    <state width="1280" height="180" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586268848023" />
+    <state width="1280" height="180" key="GridCell.Tab.1.left" timestamp="1586268848022">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1920" height="254" key="GridCell.Tab.1.left/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332378" />
-    <state width="1280" height="180" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586265604656" />
-    <state width="1280" height="180" key="GridCell.Tab.1.right" timestamp="1586265604658">
+    <state width="1280" height="180" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586268848022" />
+    <state width="1280" height="180" key="GridCell.Tab.1.right" timestamp="1586268848024">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1920" height="254" key="GridCell.Tab.1.right/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582611332385" />
-    <state width="1280" height="180" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586265604658" />
+    <state width="1280" height="180" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586268848024" />
     <state x="361" y="197" key="NewPhpClassDialog" timestamp="1583063043909">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -419,27 +391,27 @@
     </state>
     <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1581963707874" />
     <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1580139876998" />
-    <state x="0" y="0" width="1280" height="800" key="SettingsEditor" timestamp="1586258766106">
+    <state x="0" y="0" width="1280" height="800" key="SettingsEditor" timestamp="1586348124488">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="171" y="23" key="SettingsEditor/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1579527991338" />
     <state x="171" y="0" width="937" height="722" key="SettingsEditor/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583466791421" />
     <state x="171" y="0" key="SettingsEditor/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1579194187368" />
-    <state x="0" y="0" width="1280" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586258766106" />
+    <state x="0" y="0" width="1280" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586348124488" />
     <state x="171" y="23" width="937" height="709" key="SettingsEditor/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578765836470" />
     <state x="283" y="152" width="713" height="496" key="find.popup" timestamp="1583724200449">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583724200449" />
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1582998887596" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1586265595332">
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1586348397290">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583119960653" />
     <state x="230" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582604914661" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583728825768" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697318249" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586265595332" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586348397290" />
     <state x="230" y="-1008" width="1005" height="1009" key="search.everywhere.popup/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1581999126686" />
     <state x="305" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1581872663560" />
   </component>
