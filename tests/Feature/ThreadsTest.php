@@ -64,11 +64,9 @@ class ThreadsTest extends TestCase
     {
         $this->withoutExceptionHandling();
         //Given a signed in user
-        $user = factory('App\User')->create();
-        $this->be($user);
+        $this->signIn();
         //Create a thread
-        $thread = factory('App\Thread')->make(['user_id' => auth()->id()]);
-        
+        $thread = make('App\Thread', ['user_id' => auth()->id()]);
         $this->post('/threads', $thread->toArray());
         //Visible in the thread page
         $this->get('/threads')
@@ -76,10 +74,11 @@ class ThreadsTest extends TestCase
              ->assertSee($thread->body);
     }
     
-    public function test_guest_may_not_create_thread(){
-        $this->withoutExceptionHandling();
-        $thread = factory('App\Thread')->make();
-        $this->post('/threads', $thread->toArray());
+    public function test_guest_may_not_create_thread()
+    {
+        $thread = make(Thread::class);
+        $this->post('/threads', $thread->toArray())
+             ->assertRedirect(route('login'));
     }
     
 }
