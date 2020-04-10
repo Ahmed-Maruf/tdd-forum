@@ -60,4 +60,26 @@ class ThreadsTest extends TestCase
              ->assertSee($reply->body);
     }
     
+    public function test_an_auth_user_can_create_thread()
+    {
+        $this->withoutExceptionHandling();
+        //Given a signed in user
+        $user = factory('App\User')->create();
+        $this->be($user);
+        //Create a thread
+        $thread = factory('App\Thread')->make(['user_id' => auth()->id()]);
+        
+        $this->post('/threads', $thread->toArray());
+        //Visible in the thread page
+        $this->get('/threads')
+             ->assertSee($thread->title)
+             ->assertSee($thread->body);
+    }
+    
+    public function test_guest_may_not_create_thread(){
+        $this->withoutExceptionHandling();
+        $thread = factory('App\Thread')->make();
+        $this->post('/threads', $thread->toArray());
+    }
+    
 }
