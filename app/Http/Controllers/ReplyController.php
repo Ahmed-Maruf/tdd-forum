@@ -37,13 +37,19 @@ class ReplyController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Thread $thread
      *
-     * @return \Illuminate\Http\Response
+     * @return
      */
-    public function store(Request $request)
+    public function store(Thread $thread)
     {
         //
+        $thread->addReply([
+            'body' => request('body'),
+            'user_id' => auth()->id()
+        ]);
+    
+        return back();
     }
     
     /**
@@ -56,12 +62,6 @@ class ReplyController extends Controller
     public function show(Thread $thread)
     {
         //
-        $thread->addReply([
-            'body' => request('body'),
-            'user_id' => auth()->id()
-        ]);
-        
-        return back();
     }
     
     /**

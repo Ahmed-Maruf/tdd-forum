@@ -24,5 +24,23 @@
                 </div>
             </div>
         </div>
+
+        <hr>
+        
+        @if(auth()->check())
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form method="POST" action="{{$thread->path()}}/replies">
+                        @csrf
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="body" placeholder="Wanna say something?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        @else
+        <p class="text-center">Please <a href="{{ route('login') }}">Sign in</a> to participate in this forum</p>
+        @endif
     </div>
 @endsection
