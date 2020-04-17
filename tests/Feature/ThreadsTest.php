@@ -24,18 +24,6 @@ class ThreadsTest extends TestCase
         
     }
     
-    /**
-     * A basic feature test example.
-     *
-     * @return void
-     */
-    public function testExample()
-    {
-        $response = $this->get('/');
-        
-        $response->assertStatus(200);
-    }
-    
     public function test_a_user_can_view_threads()
     {
         
@@ -46,8 +34,7 @@ class ThreadsTest extends TestCase
     
     public function test_a_user_can_view_single_thread()
     {
-        
-        $this->get('/threads/'.$this->thread->id)
+        $this->get("{$this->thread->path()}")
              ->assertStatus(200)->assertSee($this->thread->title);
     }
     
@@ -56,7 +43,8 @@ class ThreadsTest extends TestCase
         $reply = factory(Reply::class)
             ->create(['thread_id' => $this->thread->id]);
         
-        $this->get('/threads/'.$this->thread->id)
+        $this->get("{$this->thread->path()}")
+             ->assertStatus(200)
              ->assertSee($reply->body);
     }
     
