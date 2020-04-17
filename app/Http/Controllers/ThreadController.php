@@ -10,7 +10,7 @@ class ThreadController extends Controller
 {
     
     public function __construct() {
-        $this->middleware('auth')->only('store');
+        $this->middleware('auth')->except(['index', 'show']);
     }
     
     /**
@@ -33,7 +33,7 @@ class ThreadController extends Controller
      */
     public function create()
     {
-        //
+        return view('threads.create');
     }
     
     /**
@@ -50,6 +50,8 @@ class ThreadController extends Controller
             'title'   => request('title'),
             'body'    => request('body'),
         ]);
+        
+        return back();
     }
     
     /**

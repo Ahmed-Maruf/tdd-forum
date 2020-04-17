@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/Utilities/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/threads/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -154,13 +152,13 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ThreadsTest.test_guest_may_not_create_thread">
+  <component name="RunManager" selected="PHPUnit.ThreadsTest">
     <configuration name="ParticipateInForumTest.test_an_authenticated_user_may_participate_in_forum_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ParticipateInForumTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="test_an_authenticated_user_may_participate_in_forum_threads" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ThreadTest.test_a_thread_can_add_a_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\ThreadTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ThreadTest.php" method="test_a_thread_can_add_a_reply" scope="Method" />
+    <configuration name="ThreadsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="ThreadsTest.test_a_user_can_read_replies_associated_with_a_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -181,25 +179,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ThreadsTest" />
         <item itemvalue="PHPUnit.ThreadsTest.test_guest_may_not_create_thread" />
         <item itemvalue="PHPUnit.ThreadsTest.test_an_auth_user_can_create_thread" />
         <item itemvalue="PHPUnit.ParticipateInForumTest.test_an_authenticated_user_may_participate_in_forum_threads" />
         <item itemvalue="PHPUnit.ThreadsTest.test_a_user_can_read_replies_associated_with_a_thread" />
-        <item itemvalue="PHPUnit.ThreadTest.test_a_thread_can_add_a_reply" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
@@ -247,7 +233,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -312,7 +298,7 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="147" y="183" key="EditFileWatcherDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1579194804105" />
-    <state width="1280" height="259" key="GridCell.Tab.0.bottom" timestamp="1586514821868">
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom" timestamp="1587129311517">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084106" />
@@ -320,11 +306,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798365" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721911" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
-    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586514821868" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587129311517" />
     <state width="1920" height="213" key="GridCell.Tab.0.bottom/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882500" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
     <state width="1920" height="283" key="GridCell.Tab.0.bottom/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065774" />
-    <state width="1280" height="259" key="GridCell.Tab.0.center" timestamp="1586514821867">
+    <state width="1280" height="259" key="GridCell.Tab.0.center" timestamp="1587129311516">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084104" />
@@ -332,11 +318,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721908" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649826" />
-    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586514821867" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587129311516" />
     <state width="1920" height="213" key="GridCell.Tab.0.center/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376974" />
     <state width="1920" height="283" key="GridCell.Tab.0.center/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065772" />
-    <state width="1280" height="259" key="GridCell.Tab.0.left" timestamp="1586514821866">
+    <state width="1280" height="259" key="GridCell.Tab.0.left" timestamp="1587129311515">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084103" />
@@ -344,11 +330,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721907" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649825" />
-    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586514821866" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587129311515" />
     <state width="1920" height="213" key="GridCell.Tab.0.left/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882498" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376973" />
     <state width="1920" height="283" key="GridCell.Tab.0.left/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065771" />
-    <state width="1280" height="259" key="GridCell.Tab.0.right" timestamp="1586514821867">
+    <state width="1280" height="259" key="GridCell.Tab.0.right" timestamp="1587129311516">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084105" />
@@ -356,7 +342,7 @@
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798364" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721910" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
-    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586514821867" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587129311516" />
     <state width="1920" height="213" key="GridCell.Tab.0.right/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
     <state width="1920" height="283" key="GridCell.Tab.0.right/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065773" />
@@ -385,11 +371,11 @@
     </state>
     <state x="361" y="197" key="NewPhpClassDialog/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583063043909" />
     <state x="361" y="198" key="NewPhpClassDialog/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1581872499660" />
-    <state x="430" y="330" key="NewPhpFileDialog" timestamp="1586512927656">
+    <state x="430" y="330" key="NewPhpFileDialog" timestamp="1587127170044">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1581963707874" />
-    <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1586512927656" />
+    <state x="430" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1587127170044" />
     <state x="0" y="0" width="1280" height="800" key="SettingsEditor" timestamp="1586348124488">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -403,14 +389,14 @@
     </state>
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583724200449" />
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1582998887596" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1586501960417">
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1587121563745">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583119960653" />
     <state x="230" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582604914661" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583728825768" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697318249" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586501960417" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1587121563745" />
     <state x="230" y="-1008" width="1005" height="1009" key="search.everywhere.popup/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1581999126686" />
     <state x="305" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1581872663560" />
   </component>
