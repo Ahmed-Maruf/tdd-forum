@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Reply;
 use App\Thread;
+use App\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
@@ -67,6 +68,16 @@ class ThreadsTest extends TestCase
         $thread = make(Thread::class);
         $this->post('/threads', $thread->toArray())
              ->assertRedirect(route('login'));
+    }
+    
+    /**
+     * @test
+     */
+    public function a_thread_requires_data(){
+        
+        $user = $this->be(factory(User::class)->create());
+        $thread = make('App\Thread', ['title' => null, 'body' => null, 'channel_id' => 9999]);
+        $this->post('/threads', $thread->toArray())->assertSessionHasErrors(['title' ,'body', 'channel_id']);
     }
     
 }
