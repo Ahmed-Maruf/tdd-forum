@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Channel;
 use App\Reply;
 use App\Thread;
 use App\User;
@@ -54,6 +55,8 @@ class ThreadsTest extends TestCase
         $this->withoutExceptionHandling();
         //Given a signed in user
         $this->signIn();
+        
+        
         //Create a thread
         $thread = make('App\Thread', ['user_id' => auth()->id()]);
         $this->post('/threads', $thread->toArray());
@@ -66,6 +69,7 @@ class ThreadsTest extends TestCase
     public function test_guest_may_not_create_thread()
     {
         $thread = make(Thread::class);
+        $this->get('/threads/create')->assertRedirect('login');
         $this->post('/threads', $thread->toArray())
              ->assertRedirect(route('login'));
     }
@@ -73,11 +77,31 @@ class ThreadsTest extends TestCase
     /**
      * @test
      */
-    public function a_thread_requires_data(){
+    public function a_thread_requires_data()
+    {
         
-        $user = $this->be(factory(User::class)->create());
-        $thread = make('App\Thread', ['title' => null, 'body' => null, 'channel_id' => 9999]);
-        $this->post('/threads', $thread->toArray())->assertSessionHasErrors(['title' ,'body', 'channel_id']);
+        $user   = $this->be(factory(User::class)->create());
+        $thread = make('App\Thread',
+            ['title' => null, 'body' => null, 'channel_id' => 9999]);
+        $this->post('/threads', $thread->toArray())
+             ->assertSessionHasErrors(['title', 'body', 'channel_id']);
+    }
+    
+    /**
+     * @test
+     */
+    
+    public function a_user_can_filter_threads_via_channel()
+    {
+        $this->withoutExceptionHandling();
+        $channel = factory(Channel::class)->create();
+        
+        $threadInChannel = factory(Thread::class)->create(['channel_id' => $channel->id]);
+        $threadNotInChannel = factory(Thread::class)->create();
+        
+        $this->get('threads/' . $channel->slug)
+            ->assertSee($threadInChannel->title)
+            ->assertDontSee($threadNotInChannel->title);
     }
     
 }

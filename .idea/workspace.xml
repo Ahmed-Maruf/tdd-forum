@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ChannelTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Channel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Channel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,25 +155,25 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ParticipateInForumTest.an_authenticated_user_may_participate_in_forum_threads">
-    <configuration name="ParticipateInForumTest.a_reply_requires_a_body" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ParticipateInForumTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="a_reply_requires_a_body" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.ThreadsTest.test_guest_may_not_create_thread">
+    <configuration name="ChannelTest.a_channel_consist_of_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ChannelTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ChannelTest.php" method="a_channel_consist_of_threads" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ParticipateInForumTest.an_authenticated_user_may_participate_in_forum_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ParticipateInForumTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="an_authenticated_user_may_participate_in_forum_threads" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ParticipateInForumTest.test_an_authenticated_user_may_participate_in_forum_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ParticipateInForumTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="test_an_authenticated_user_may_participate_in_forum_threads" scope="Method" />
+    <configuration name="ThreadsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="ThreadsTest.a_thread_requires_a_title" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="a_thread_requires_a_title" scope="Method" />
+    <configuration name="ThreadsTest.a_user_can_filter_threads_via_channel" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="a_user_can_filter_threads_via_channel" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ThreadsTest.a_thread_requires_data" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="a_thread_requires_data" scope="Method" />
+    <configuration name="ThreadsTest.test_guest_may_not_create_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="test_guest_may_not_create_thread" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -180,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ThreadsTest.test_guest_may_not_create_thread" />
+        <item itemvalue="PHPUnit.ThreadsTest" />
+        <item itemvalue="PHPUnit.ChannelTest.a_channel_consist_of_threads" />
+        <item itemvalue="PHPUnit.ThreadsTest.a_user_can_filter_threads_via_channel" />
         <item itemvalue="PHPUnit.ParticipateInForumTest.an_authenticated_user_may_participate_in_forum_threads" />
-        <item itemvalue="PHPUnit.ParticipateInForumTest.test_an_authenticated_user_may_participate_in_forum_threads" />
-        <item itemvalue="PHPUnit.ParticipateInForumTest.a_reply_requires_a_body" />
-        <item itemvalue="PHPUnit.ThreadsTest.a_thread_requires_data" />
-        <item itemvalue="PHPUnit.ThreadsTest.a_thread_requires_a_title" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +246,10 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="251" y="39" key="#CLI_Interpreters/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578765366478" />
+    <state x="335" y="286" key="#File_and_Code_Templates" timestamp="1587286631195">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="335" y="286" key="#File_and_Code_Templates/0.0.1280.800@0.0.1280.800" timestamp="1587286631195" />
     <state x="241" y="23" key="#ProjectsTest.test_a_user_can_create_a_project" timestamp="1578761847360">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
@@ -271,9 +277,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="268" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1581963698754" />
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1578853524005">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state x="453" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1587287183306">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="453" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1587287183306" />
     <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1578853524005" />
     <state x="328" y="142" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586151037660">
       <screen x="0" y="0" width="1280" height="800" />
@@ -304,7 +311,7 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="147" y="183" key="EditFileWatcherDialog/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1579194804105" />
-    <state width="1280" height="259" key="GridCell.Tab.0.bottom" timestamp="1587204242795">
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom" timestamp="1587288247936">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084106" />
@@ -312,11 +319,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798365" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721911" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
-    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587204242795" />
+    <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587288247936" />
     <state width="1920" height="213" key="GridCell.Tab.0.bottom/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882500" />
     <state width="1280" height="259" key="GridCell.Tab.0.bottom/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
     <state width="1920" height="283" key="GridCell.Tab.0.bottom/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065774" />
-    <state width="1280" height="259" key="GridCell.Tab.0.center" timestamp="1587204242793">
+    <state width="1280" height="259" key="GridCell.Tab.0.center" timestamp="1587288247935">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084104" />
@@ -324,11 +331,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721908" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649826" />
-    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587204242793" />
+    <state width="1280" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587288247935" />
     <state width="1920" height="213" key="GridCell.Tab.0.center/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
     <state width="1280" height="259" key="GridCell.Tab.0.center/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376974" />
     <state width="1920" height="283" key="GridCell.Tab.0.center/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065772" />
-    <state width="1280" height="259" key="GridCell.Tab.0.left" timestamp="1587204242793">
+    <state width="1280" height="259" key="GridCell.Tab.0.left" timestamp="1587288247934">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084103" />
@@ -336,11 +343,11 @@
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798363" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721907" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649825" />
-    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587204242793" />
+    <state width="1280" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587288247934" />
     <state width="1920" height="213" key="GridCell.Tab.0.left/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882498" />
     <state width="1280" height="259" key="GridCell.Tab.0.left/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376973" />
     <state width="1920" height="283" key="GridCell.Tab.0.left/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065771" />
-    <state width="1280" height="259" key="GridCell.Tab.0.right" timestamp="1587204242794">
+    <state width="1280" height="259" key="GridCell.Tab.0.right" timestamp="1587288247935">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583120084105" />
@@ -348,7 +355,7 @@
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583730798364" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1057.1920.1057@0.0.1280.800" timestamp="1583578721910" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697649827" />
-    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587204242794" />
+    <state width="1280" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587288247935" />
     <state width="1920" height="213" key="GridCell.Tab.0.right/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1582002882499" />
     <state width="1280" height="259" key="GridCell.Tab.0.right/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1583093376975" />
     <state width="1920" height="283" key="GridCell.Tab.0.right/0.23.1280.777/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582605065773" />
@@ -395,14 +402,14 @@
     </state>
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583724200449" />
     <state x="283" y="152" width="713" height="496" key="find.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1582998887596" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1587139588953">
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup" timestamp="1587214933961">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1057.1920.1057@0.0.1280.800" timestamp="1583119960653" />
     <state x="230" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@-228.-1080.1920.1080" timestamp="1582604914661" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-228.-1080.1920.1080@0.0.1280.800" timestamp="1583728825768" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800/-293.-1080.1920.1080@0.0.1280.800" timestamp="1583697318249" />
-    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1587139588953" />
+    <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1587214933961" />
     <state x="230" y="-1008" width="1005" height="1009" key="search.everywhere.popup/0.23.1280.709/-228.-1057.1920.1057@-228.-1057.1920.1057" timestamp="1581999126686" />
     <state x="305" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1581872663560" />
   </component>
