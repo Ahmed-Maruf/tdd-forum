@@ -57,7 +57,7 @@ class ThreadController extends Controller
             'body'    => request('body'),
         ]);
         
-        return back();
+        return redirect('/threads');
     }
     
     /**
