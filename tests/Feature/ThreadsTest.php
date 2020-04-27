@@ -96,12 +96,33 @@ class ThreadsTest extends TestCase
         $this->withoutExceptionHandling();
         $channel = factory(Channel::class)->create();
         
-        $threadInChannel = factory(Thread::class)->create(['channel_id' => $channel->id]);
+        $threadInChannel
+                            = factory(Thread::class)->create(['channel_id' => $channel->id]);
         $threadNotInChannel = factory(Thread::class)->create();
         
-        $this->get('threads/' . $channel->slug)
-            ->assertSee($threadInChannel->title)
-            ->assertDontSee($threadNotInChannel->title);
+        $this->get('threads/'.$channel->slug)
+             ->assertSee($threadInChannel->title)
+             ->assertDontSee($threadNotInChannel->title);
+    }
+    
+    public function test_a_user_can_filter_threads_via_user()
+    {
+        $this->withoutExceptionHandling();
+        
+        $this->signIn(create(User::class, ['name' => 'Ahmed']));
+        
+        $channel       = create(Channel::class);
+        $threadByAhmed = factory(Thread::class)->create([
+            'user_id' => auth()->id(),
+            'channel_id' => $channel->id,
+        ]);
+        
+        $threadByOther = factory(Thread::class)->create([
+            'channel_id' => $channel->id,
+        ]);
+        $this->get('/threads?by=Ahmed')
+             ->assertSee($threadByAhmed->title)
+             ->assertDontSee($threadByOther->title);
     }
     
 }
