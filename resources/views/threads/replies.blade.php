@@ -1,4 +1,9 @@
-@foreach($thread->replies as $reply)
+@php
+    /** @var TYPE_NAME $thread */
+$replies = $thread->replies()->paginate(1);
+@endphp
+
+@foreach($replies as $reply)
     <div class="card-header">
         <a href="">{{ $reply->user->name }}</a> said {{ $reply->created_at->diffForHumans() }}
     </div>
@@ -9,3 +14,5 @@
 
     <hr>
 @endforeach
+
+{{$replies->links()}}

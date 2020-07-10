@@ -2,30 +2,40 @@
 
 namespace App\Http\Controllers;
 
+use App\Channel;
+use App\Filters\ThreadFilter;
 use App\Thread;
-use Hamcrest\Thingy;
 use Illuminate\Http\Request;
 
 class ThreadController extends Controller
 {
-    
-    public function __construct() {
+
+    public function __construct()
+    {
         $this->middleware('auth')->except(['index', 'show']);
     }
-    
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Channel $channel, ThreadFilter $filters)
     {
         //
-        $threads = Thread::latest()->get();
-        
+        $threads = Thread::latest()->filter($filters);
+        if ($channel->exists) {
+            $threads = $threads->where('channel_id', $channel->id);
+        }
+
+        $threads = $threads->get();
+
+        if (request()->wantsJson()){
+            return $threads;
+        }
         return view('threads.index', compact('threads'));
     }
-    
+
     /**
      * Show the form for creating a new resource.
      *
@@ -35,7 +45,7 @@ class ThreadController extends Controller
     {
         return view('threads.create');
     }
-    
+
     /**
      * Store a newly created resource in storage.
      *
@@ -45,15 +55,22 @@ class ThreadController extends Controller
      */
     public function store(Request $request)
     {
+
+        $this->validate($request, [
+            'title' => 'required',
+            'body' => 'required',
+            'channel_id' => 'required|exists:channels,id'
+        ]);
         $thread = Thread::create([
             'user_id' => auth()->id(),
-            'title'   => request('title'),
-            'body'    => request('body'),
+            'channel_id' => request('channel_id'),
+            'title' => request('title'),
+            'body' => request('body'),
         ]);
-        
-        return back();
+
+        return redirect($thread->path());
     }
-    
+
     /**
      * Display the specified resource.
      *
@@ -61,12 +78,12 @@ class ThreadController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function show(Thread $thread)
+    public function show($channelId, Thread $thread)
     {
         //
         return view('threads.show', compact('thread'));
     }
-    
+
     /**
      * Show the form for editing the specified resource.
      *
@@ -78,7 +95,7 @@ class ThreadController extends Controller
     {
         //
     }
-    
+
     /**
      * Update the specified resource in storage.
      *
@@ -91,7 +108,7 @@ class ThreadController extends Controller
     {
         //
     }
-    
+
     /**
      * Remove the specified resource from storage.
      *
@@ -103,5 +120,5 @@ class ThreadController extends Controller
     {
         //
     }
-    
+
 }
