@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e867236e-00bf-4d1a-af87-493bde9e6655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Channel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Filters/Filters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Filters/ThreadFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/ViewServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/laravel-query-monitor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_172136_create_channels_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laraforum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laraforum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="e8e24f57-6357-417c-944d-d8b44f04d56f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Favorite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_13_120840_create_favorites_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ThreadFatory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ThreadFatory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_07_110343_create_threads_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_07_110343_create_threads_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/threads/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/threads/replies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/replies.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reply.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Utilities/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Utilities/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +26,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="development" />
+                    <option name="lastUsedInstant" value="1594375569" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1594375568" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -171,6 +175,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -187,25 +192,25 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ThreadsTest.test_threads_can_be_filter_by_popularity">
-    <configuration name="ThreadTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\ThreadTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ThreadTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.FavoritesTest.test_an_authenticated_user_can_make_a_reply_favorite_only_once">
+    <configuration name="FavoritesTest.test_an_authenticated_user_can_make_a_reply_favorite" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\FavoritesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" method="test_an_authenticated_user_can_make_a_reply_favorite" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FavoritesTest.test_an_authenticated_user_can_make_a_reply_favorite_only_once" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\FavoritesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" method="test_an_authenticated_user_can_make_a_reply_favorite_only_once" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FavoritesTest.test_guest_can_not_favorite_anything" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\FavoritesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" method="test_guest_can_not_favorite_anything" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ThreadsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="ThreadsTest.test_threads_can_be_filter_by_channel" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="test_threads_can_be_filter_by_channel" scope="Method" />
-      <method v="2" />
-    </configuration>
     <configuration name="ThreadsTest.test_threads_can_be_filter_by_popularity" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="test_threads_can_be_filter_by_popularity" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ThreadsTest.test_threads_can_be_filter_by_user" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ThreadsTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" method="test_threads_can_be_filter_by_user" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -214,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.FavoritesTest.test_an_authenticated_user_can_make_a_reply_favorite_only_once" />
+        <item itemvalue="PHPUnit.FavoritesTest.test_an_authenticated_user_can_make_a_reply_favorite" />
+        <item itemvalue="PHPUnit.FavoritesTest.test_guest_can_not_favorite_anything" />
         <item itemvalue="PHPUnit.ThreadsTest.test_threads_can_be_filter_by_popularity" />
         <item itemvalue="PHPUnit.ThreadsTest" />
-        <item itemvalue="PHPUnit.ThreadsTest.test_threads_can_be_filter_by_user" />
-        <item itemvalue="PHPUnit.ThreadTest" />
-        <item itemvalue="PHPUnit.ThreadsTest.test_threads_can_be_filter_by_channel" />
       </list>
     </recent_temporary>
   </component>
@@ -287,10 +292,10 @@
     </state>
     <state x="-93" y="-880" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594369182891" />
     <state x="-93" y="-880" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.709/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594369378820" />
-    <state x="352" y="-963" key="#com.intellij.ide.util.MemberChooser" timestamp="1594113757115">
+    <state x="352" y="-963" key="#com.intellij.ide.util.MemberChooser" timestamp="1594635011496">
       <screen x="-293" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="352" y="-963" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594113757115" />
+    <state x="352" y="-963" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594635011496" />
     <state x="430" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1593779821380" />
     <state x="328" y="142" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586151037660">
       <screen x="0" y="0" width="1280" height="800" />
@@ -312,31 +317,31 @@
       <screen x="-293" y="-1080" width="1920" height="1080" />
     </state>
     <state x="447" y="-701" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594117954415" />
-    <state width="1920" height="351" key="GridCell.Tab.0.bottom" timestamp="1594372252033">
+    <state width="1920" height="351" key="GridCell.Tab.0.bottom" timestamp="1594720295194">
       <screen x="-293" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1920" height="351" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594372252033" />
+    <state width="1920" height="351" key="GridCell.Tab.0.bottom/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594720295194" />
     <state width="1280" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1593780054884" />
     <state width="1280" height="205" key="GridCell.Tab.0.bottom/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1593970133057" />
     <state width="1920" height="351" key="GridCell.Tab.0.bottom/0.23.1280.709/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594118708218" />
-    <state width="1920" height="351" key="GridCell.Tab.0.center" timestamp="1594372252031">
+    <state width="1920" height="351" key="GridCell.Tab.0.center" timestamp="1594720295191">
       <screen x="-293" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1920" height="351" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594372252031" />
+    <state width="1920" height="351" key="GridCell.Tab.0.center/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594720295191" />
     <state width="1280" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1593780054883" />
     <state width="1280" height="205" key="GridCell.Tab.0.center/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1593970133036" />
     <state width="1920" height="351" key="GridCell.Tab.0.center/0.23.1280.709/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594118708216" />
-    <state width="1920" height="351" key="GridCell.Tab.0.left" timestamp="1594372252027">
+    <state width="1920" height="351" key="GridCell.Tab.0.left" timestamp="1594720295188">
       <screen x="-293" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1920" height="351" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594372252027" />
+    <state width="1920" height="351" key="GridCell.Tab.0.left/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594720295188" />
     <state width="1280" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1593780054882" />
     <state width="1280" height="205" key="GridCell.Tab.0.left/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1593970133034" />
     <state width="1920" height="351" key="GridCell.Tab.0.left/0.23.1280.709/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594118708214" />
-    <state width="1920" height="351" key="GridCell.Tab.0.right" timestamp="1594372252032">
+    <state width="1920" height="351" key="GridCell.Tab.0.right" timestamp="1594720295193">
       <screen x="-293" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1920" height="351" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594372252032" />
+    <state width="1920" height="351" key="GridCell.Tab.0.right/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594720295193" />
     <state width="1280" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1593780054883" />
     <state width="1280" height="205" key="GridCell.Tab.0.right/0.23.1280.709/-293.-1057.1920.1057@0.23.1280.709" timestamp="1593970133037" />
     <state width="1920" height="351" key="GridCell.Tab.0.right/0.23.1280.709/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594118708217" />
@@ -368,10 +373,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="0" y="0" width="1280" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586348124488" />
-    <state x="165" y="-1030" width="1005" height="1031" key="search.everywhere.popup" timestamp="1594373586102">
+    <state x="368" y="-791" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1594634793439">
       <screen x="-293" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="165" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594373586102" />
+    <state x="368" y="-791" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594634793439" />
+    <state x="165" y="-1030" width="1005" height="1031" key="search.everywhere.popup" timestamp="1594717199108">
+      <screen x="-293" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="165" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.0.1280.800/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594717199108" />
     <state x="305" y="37" width="670" height="763" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1593781399078" />
     <state x="165" y="-1030" width="1005" height="1031" key="search.everywhere.popup/0.23.1280.709/-293.-1080.1920.1080@-293.-1080.1920.1080" timestamp="1594226763117" />
   </component>

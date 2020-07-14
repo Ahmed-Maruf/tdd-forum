@@ -7,9 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class Reply extends Model
 {
     //
-    
+
     protected $guarded = [];
     public function user(){
         return $this->belongsTo(User::class);
+    }
+
+    public function favorites(){
+
+        return $this->morphMany(Favorite::class, 'favorited');
     }
 }
